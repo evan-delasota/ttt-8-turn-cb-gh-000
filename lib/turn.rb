@@ -38,8 +38,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  index  = gets
-  input_to_index(index)
+  user_input  = gets
+  input_to_index(user_input)
 
   if (valid_move?)
     move(board, index, user_input = "X")
