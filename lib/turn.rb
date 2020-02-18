@@ -33,7 +33,7 @@ def input_to_index(input)
 end
 
 def move(board, index, user_input = "X")
-  return board[index] = value
+  return board[index] = user_input
 end
 
 def turn(board)
