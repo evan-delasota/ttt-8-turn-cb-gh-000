@@ -41,7 +41,7 @@ def turn(board)
   user_input  = gets
   input_to_index(user_input)
 
-  if (valid_move?)
+  if (valid_move?(board, user_input))
     move(board, user_input, choice = "X")
   else
     puts "Input is invalid, try another position..."
